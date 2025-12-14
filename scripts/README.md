@@ -6,5 +6,7 @@ Usage:
 ```bash
 python scripts/generate_sample.py \
   --input data/raw/products_macro.csv \
-  --output data/sample/products_macro_sample.csv
+  --output data/sample/products_macro_sample.csv \
+  --rows 100 \
+  --seed 42
 ```
